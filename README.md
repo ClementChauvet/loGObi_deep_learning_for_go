@@ -17,8 +17,3 @@ src/training.py is a set of function to launch, save and monitor the training of
 If the training has been stopped, calling the train function will restart from the latest checkpoint
 
 src/mobilenet_v3 contains functions used to define a mobilenet. When directly executed will create a model and launch its training
-
-### How to use
-
-To train any model, you first have to initialise the data and libraries by executing bash.init.sh
-You can then execute src/mobilenet_v3.py to launch or relaunch the training 
